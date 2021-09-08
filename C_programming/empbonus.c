@@ -1,0 +1,19 @@
+//7.wap to accept empname,salary and calculate bonus.
+int main()
+{
+	char empname[20];
+	float salary,bonus;
+	float bonusCalc;
+	printf("enter a employee name :");
+	scanf("%s",&empname);
+	printf("\n enter a employee salary :");
+	scanf("%f",&salary);
+	printf("\n enter a employee bonus :");
+	scanf("%f",&bonus);
+	bonusCalc=salary+bonus;
+	
+	printf("\n empname=%s",empname);
+	printf("\n salary=%.2f",salary);
+	printf("\n bonus=%.2fbonus",bonus);
+	printf("\n total salary with bonus=%.2f",bonusCalc);
+}
