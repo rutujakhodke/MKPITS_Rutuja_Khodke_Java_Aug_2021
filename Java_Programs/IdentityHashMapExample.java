@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.IdentityHashMap;
 import java.util.*;
-public class IdentityHashMapEx{
+public class IdentityHashMapExample{
  public static void main(String args[]){
  //creating an instance of IdentityHashMap
  Map<String,String> ihmap =new IdentityHashMap<String,String>();
