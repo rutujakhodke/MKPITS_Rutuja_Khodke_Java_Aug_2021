@@ -1,0 +1,25 @@
+---CREATE QUERY--------
+
+//1. create a table name "Employee1" in the database "employeedb" using the following statement.
+create table employee1(id int,name varchar(20));
+insert into employee1(id) values(11);
+
+//2.not null 
+CREATE TABLE EMP1(ID INT,NAME VARCHAR(20) NOT NULL);
+INSERT INTO EMP1(ID) VALUES (12);
+
+//3.CREATE TABLE EMP2 WITH NOT NULL AND AUTO-INCREMENT WITH PRIMARY KEY
+CREATE TABLE EMP2(ID INT NOT NULL AUTO_INCREMENT,NAME VARCHAR(20),PRIMARY KEY(ID));
+INSERT INTO EMP2(NAME) VALUE("AMIT");
+INSERT INTO EMP2(NAME) VALUE("RAJ");
+INSERT INTO EMP2 VALUES(2,"JAY");//IT Shows error because the id value is duplicate
+
+//4.CREATE TABLE EMPLOYEE_TABLE
+CREATE TABLE EMPLOYEE_TABLE(ID INT NOT NULL AUTO_INCREMENT,NAME VARCHAR(20) NOT NULL,OCCUPATION VARCHAR(40) NOT NULL,AGE INT NOT NULL
+,PRIMARY KEY(ID));
+
+//5.TO VIEW NEWLY CREATED TABLES.
+SHOW TABLES;
+
+//6.to see the information or structure of the newly created table.
+DESCRIBE EMPLOYEE1_TABLE;
