@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+  <title>HTML PAGE</title>
+  
+ </head>
+ <body>
+    <h>Main Heading</h>
+	<h1>Hyper Text Markup Lanuage</h1>
+	<h2>Hyper Text Transfer Protocol</h2>
+	<h3>Html consists of a series of elements</h3>
+	<h4>Html consists of a series of elements</h4>
+	<h5>Html consists of a series of elements</h5>
+	<p>This is a HTML Page</p>
+  
+ </body>
+</html>
