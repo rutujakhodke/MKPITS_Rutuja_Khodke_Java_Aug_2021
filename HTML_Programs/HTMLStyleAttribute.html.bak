@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>HTML Page</title>
+ </head>
+ <body>
+  <h1>HTML style Attribute</h1>
+  <p>The style attribute is used to add styles to an element, such as color, font, size, and more.</p>
+  <p style="color:green"> This is Style attribute applied on paragraph tag.</p>
+   
+   <h1>HTML title Attribute</h1>
+   <p>The title attribute defines some extra information about an element.</p>
+   <p>The value of the title attribute will be displayed as a tooltip when you mouse over the element</p>
+-------------------------------------------------------------------------------------------------------------------
+   <p>you can specify the size for any heading with the style attribute, using the CSS font-size property</p>
+   <h1 style="font-size:70px">This is a Main Heading</h1>
+--------------------------------------------------------------------------------------------------------
+    <p title="I'm a tooltip">This is a paragraph.</p>
+--------------------------------------------------------------------------------------------------------------
+	<p>The "hr" element is used to <br>separate content (or define a change) in an HTML page</p>
+
+	<h2>This is a Heading 1</h2>
+	<p>This is a Paragraph 1</p>
+	<hr> <!---------hr=Horizontal ruler------->
+	<h2>This is a Heading 2</h2>
+	<p>This is a paragraph 2</p>
+
+ </body>
+</html>
