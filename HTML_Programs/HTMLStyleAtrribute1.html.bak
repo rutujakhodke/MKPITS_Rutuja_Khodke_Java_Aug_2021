@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  
+  <title>HTML Styles</title>
+ </head>
+ <body style="background-color:white";>
+  <h1 style="font-size:20px">This is Heading 1</h1>
+  <p>The CSS background-color property defines the background color for an HTML element.</p>
+
+  <h1 style="background-color:powderblue";>Heading 1</h1> <!-----to provide background color for h1--->
+  <p style="background-color:green">This is a paragraph</p> <!-----to provide background color for p--->
+
+  <h2 style="color:green">Heading 2</h2> <!---to set the text color of heading---->
+  <p style="color:pink">paragraph 1</p>  <!---to set the text color of paragraph---->
+
+ </body>
+</html>
