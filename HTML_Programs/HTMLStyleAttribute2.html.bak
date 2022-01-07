@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  
+  <title>HTML Document</title>
+ </head>
+ <body>
+  <a href="F:\HTML Programs\HTMLlinkandImgTag.html">click here to go to previous html file</a> <br> <!---it goes to prevoius html file-->
+  <a href="http://www.google.com">Click here</a> <!---it goes to specific url--->
+
+  <a href="http://www.google.com"> <img src="E:/Cartoonstar.jpg" Border=12></a> <!---when click on image the control goes to url that given in href--->
+
+
+ </body>
+</html>
