@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  
+  <title>HTML TAGS</title>
+ </head>
+ <body>
+  <h1>HTML Links</h1>  <!---Break Tag---->
+  <p>HTML links are defined with the tag.</p>
+
+  <a href="https://www.google.com"> This is a link</a> <!--------HTML link tag---------->
+
+  <h1>HTML Image</h1> 
+  <p>HTML image are defined with the tag.The link address is specified in the href attribute.</p>
+  <p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute.</p>
+
+ <img src="E:/Cartoonstar.jpg" alt="E:/Cartoonstar.com" width="200" height="200"> <!--------HTML img tag----->
+
+ </body>
+</html>
