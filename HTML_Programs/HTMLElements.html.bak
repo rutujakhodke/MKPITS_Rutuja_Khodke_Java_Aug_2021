@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  
+  <title>HTML Elements</title>
+ </head>
+ <body>
+ who invented Java?
+  <ul type=square> <!---Unordered list-->
+	<li> James Gosling <!---list-->
+	<li> Scott
+	<li> Miller
+	<li> Peter
+  </ul>
+who invented Java?
+  <ol type=I> <!---Ordered list--->
+	<li> James Gosling
+	<li> Scott
+	<li> Miller
+  </ol>  
+
+<h1 style="color:brown">Student Details</h1>
+  <table Align="left" Border=8px style="background-color:powderblue;color:green" CellSpacing=5 CellPadding=3 width="50%">
+  <tr Align="left" VAlign="middle"> <!--tr=Table row--->
+  <th style="background-color:pink ; color:red">Id</th> <!---th=Table row heading--->
+  <th style="background-color:pink ; color:red" style="color:red">Name</th>
+  <th style="background-color:pink ; color:red">Address</th>
+  </tr>
+
+  <tr Align="left" VAlign="middle">
+	<td>101</td> <!---td=Table data--->
+	<td>Rutuja</td>
+	<td>Nagpur</td>
+  </tr>
+
+ <tr Align="left" VAlign="middle">
+	<td>102</td>
+	<td>Sayli</td>
+	<td>Nagpur</td>
+  </tr>
+
+  <tr Align="left" VAlign="middle">
+	<td>103</td>
+	<td>Ruchi</td>
+	<td>Pune</td>
+  </tr>
+
+  </table>
+ </body>
+</html>
