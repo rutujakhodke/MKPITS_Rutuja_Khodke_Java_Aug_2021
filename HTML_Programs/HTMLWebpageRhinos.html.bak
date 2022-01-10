@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>HTML Webpage</title>
+ </head>
+ <body>
+ <img  align="right" src="F:\RhinosImage.jpg"  alt="Rhino Image" width="200" height="200" border="0">
+  <h1 style="text-align:center ;">INDIAN RHINOCEROS</h1>
+
+  <p>The Indian rhinoceros lives primarily in northern India and Nepal.These <br> massive beasts have some noticeable physical differences 
+  from their <br> African relatives.Their segmented hide looks like a formidable coat of <br> natural body armour.It functions a bit like one also.Flexible skin between <br> the thicker hide "plates" allows them to shift as the rhinoceros moves.</p>
+
+  <p>Other Endangered Animals:</p>
+
+  <ul>
+	<li><u>Whooping Crane</u>
+	<li><u>White Rhino</u>
+	<li><u>Sumatran Rhino</u>
+	<li><u>Toucan</u>
+  </ul>
+
+  <h4 style="text-align:center">Fast Facts</h4>
+
+  <table Align="center" Border=1 Cellspacing=0 Cellpadding=0 width=50%>
+  <tr>
+	<th align="left">Type</th>
+	<td>Mammal</td>
+  </tr>
+
+<tr>
+	<th align="left">Diet</th>
+	<td>Herbivore</td>
+  </tr>
+
+  <tr>
+	<th align="left">Average life span in the wild</th>
+	<td>40 years</td>
+  </tr>
+
+  <tr>
+	<th align="left">Size</th>
+	<td>Length 12.5 ft,Height up to g ft</td>
+  </tr>
+
+  <tr>
+	<th align="left">Weight</th>
+	<td>4,400 tbs(2,000 kg)</td>
+  </tr>
+
+<h4><u>For More Details</u></h4>
+  </table>
+ </body>
+</html>
