@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <style>
+	th,td{
+	 border-collapse:collapse;
+	}
+ </style>
+ 
+  <title>HTML Table</title>
+ </head>
+ <body>
+  <table Align="left" Border=1 Cellspacing=0 Cellpadding=9 width=40% >
+
+  <tr>
+  <th rowspan="3" width=40%>Name</th> <!-- first column heading -->
+	<td></td>
+	<td></td>
+  </tr>
+
+  <tr>
+	<td></td> <!-- Next column of same row "name" -->
+	<td></td>
+ </tr>
+
+  <tr>
+	<td></td>
+	<td></td>
+ </tr>
+
+ <tr>
+	<th></th> <!-- second column heading-->
+	<td></td>
+	<td></td>
+ </tr>
+
+ <tr>
+	<th></th> <!-- third column heading -->
+	<td></td>
+	<td></td>
+ </tr>
+
+  </table>
+ </body>
+</html>
