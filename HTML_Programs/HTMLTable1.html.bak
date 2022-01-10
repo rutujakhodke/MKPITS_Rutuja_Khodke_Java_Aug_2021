@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+ 
+  <title>HTML Table</title>
+ </head>
+ <body>
+ <br>
+ <br>
+  <table Align="left" Border=1  Cellspacing=0 Cellpadding=8 width=30%>
+  <tr>
+  <th colspan="2">Name</th>
+  <th style="width:40%"></th>
+  </tr>
+
+  <tr>
+	<td></td>
+	<td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+	<td></td>
+	<td ></td>
+    <td></td>
+  </tr>
+
+  <tr>
+	<td></td>
+	<td ></td>
+    <td></td>
+  </tr>
+
+  <tr>
+	<td></td>
+	<td></td>
+    <td></td>
+  </tr>
+
+  </table>
+ </body>
+</html>
