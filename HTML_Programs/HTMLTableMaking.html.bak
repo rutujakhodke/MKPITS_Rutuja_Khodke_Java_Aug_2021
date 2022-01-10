@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  
+  <title>HTML Table</title>
+ </head>
+ <body>
+  <table Align="left" Border=2 Cellspacing=0 Cellpadding=8 width=30%>
+  <tr Align="left" Valign="middle">
+	<td colspan="3" style="text-align:center">2022</td> <!-- first row -->
+  </tr>
+
+  <tr>
+	<td></td> <!-- second row -->
+	<td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+	<td colspan="2" rowspan="2" style="text-align:center">FIESTA</td>
+	<td></td>
+ </tr>
+ 
+   <tr>
+	<td></td>
+   </tr>
+  <tr>
+
+	<td></td>
+	<td></td>
+	<td></td>
+	
+  </tr>
+
+   </table>
+ </body>
+</html>
