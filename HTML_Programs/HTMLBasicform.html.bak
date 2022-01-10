@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Document</title>
+ </head>
+ <body>
+ <marquee> <h1 style="color:red">HTML Form</h1> </marquee>
+ <form action="www.google.com">
+     Name: <input type="text" value="" name="myname" size=30> <br> <br>
+	 Password: <input type="password"> <br><br><br>
+     
+	 Description: <textarea cols=10 rows=4 >
+hghksllksjdddddd
+jdhgfbbbb
+    </textarea> <br><br>
+
+   Select city: <select>
+	<option>city name</option>
+    <option>Mumbai</option>
+	<option>Pune</option>
+	<option>Nagpur</option>
+   </select> <br><br>
+
+   Gender:
+   <input type="radio" name="G"> male
+    <input type="radio" name="G"> female <br><br>
+
+	Courses Offered: <br><br>
+	<input type="checkbox" name="c">C
+    <input type="checkbox" name="c">C++
+	<input type="checkbox" name="c">Java <br><br>
+
+	<input type="submit" value="Submit">
+	<input type="Reset">
+
+	<input type="button" value="mybutton">
+	 </form>
+ </body>
+</html>
