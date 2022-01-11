@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>HTML CSS</title>
+  <link href="newstyle1.css" rel="stylesheet">
+ </head>
+ <body>
+  <div>sec 1</div>
+  <div>sec 2</div>
+  <div>sec 3</div>
+  <div>sec 4</div>
+ </body>
+</html>
