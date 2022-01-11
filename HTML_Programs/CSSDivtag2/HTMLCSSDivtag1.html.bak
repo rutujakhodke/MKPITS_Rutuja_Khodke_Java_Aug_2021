@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>HTML CSS Div tag</title>
+  <link href="newstyle1.css" rel="stylesheet">
+ </head>
+ <body>
+  <div class="Demo" id="First" >sec 1</div>
+  <div class="Demo" id="second">sec 2</div>
+  <div class="Demo" id="third">sec 3</div>
+
+ </body>
+</html>
