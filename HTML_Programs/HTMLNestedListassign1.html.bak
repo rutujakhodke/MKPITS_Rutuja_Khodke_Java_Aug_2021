@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Nested List A</title>
+ </head>
+ <body>
+  <h1>Things to do Today</h1>
+  <ol style="font-size:25px;">
+	<li>Feed Cat
+	
+	<ul>
+		<li>Rinse bowl
+		<li>Open cat food
+		<li>Mix dry and wet food in bowl
+		<li>Deliver on a silver platter to Pixel
+	</ul>
+
+	<li>Wash car
+
+	<ul>
+		<li>Vacuum interior
+		<li>Wash exterior
+		<li>Wax exterior
+	</ul>
+
+	<li>Grocery shopping
+
+	<ul>
+		<li>Plan meals
+		<li>Clean out fridge
+		<li>Make list
+		<li>Go to store
+	</ul>
+  </ol>
+ </body>
+</html>
