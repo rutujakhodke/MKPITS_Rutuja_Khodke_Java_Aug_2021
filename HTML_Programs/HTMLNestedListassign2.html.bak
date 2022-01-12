@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  <title>Document1</title>
+ </head>
+ <body>
+  <h2>Computer Primary Components</h2>
+
+  <ol>
+	<li>Input Device
+
+	<ol type="a">
+		<li>Direct Input
+
+		<ul>
+			<li>Scanner
+		</ul>
+
+		<li>Indirect Input
+
+         <ul>
+			<li>Keyboard
+			<li>Mouse
+		</ul>
+
+		</ol>
+
+		<li>Output Device
+
+		<ol type="a">
+			<li>Monitor
+
+        <ul>
+			<li>CRT Monitor
+			<li>LCD Monitor
+        </ul>
+
+		<li>Speaker
+		</ol>
+
+		<li>Processing Device
+			<ol type="a">
+				<li>ALU
+
+            <ul>
+				<li>Arithmetic Unit
+				<li>Logic Unit
+            </ul>
+
+			<li>CU
+				
+			</ol>
+			
+			<li>Storage Device
+				
+            <ol type="a">
+				<li>Primary Storage
+
+				<ul>
+					<li>RAM
+
+				<ol type="I">
+					<li>SRAM
+					<li>DRAM
+				</ol>
+				</ul>
+
+				
+            </ol>
+  </ol>
+ </body>
+</html>
