@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  <title>Form Example</title>
+ </head>
+ <body>
+  Full Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Name" size="28"> <br><br>
+
+  Biography &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea  cols="20" rows="2">
+	
+</textarea> <br><br>
+
+  Planet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="planetname" size="28" value="Earth"> <br><br>
+
+  Coupon &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="coupon" size="28" value="Not available" readonly="true"> <br><br>
+
+  Image &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" size="5"> No file choosen <br><br>
+
+  <fieldset style="border:2px solid black">
+	 <legend>Gender</legend>
+  <input type="radio" name="gen">Male <br>
+  <input type="radio" name="gen">Female
+  </fieldset>
+
+  <fieldset style="border:2px solid black">
+	 <legend>Hobbies</legend>
+  <input type="checkbox" name="hobby">Hiking <br>
+  <input type="checkbox" name="hobby">Dancing <br>
+  <input type="checkbox" name="hobby">Gardening
+  </fieldset> <br>
+
+  Age Group &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+	 <option>0 to 9 Years</option>
+     <option>10 to 18 Years</option>
+     <option>18 to 25 Years</option>
+	 <option>25 to 35 Years</option>
+   </select> <br><br> <br><br>
+
+   Idol &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="Idols" multiple="multiple">
+    <option>Michael Jackson</option>
+	<option>Amitabh Bacchan</option>
+	 <option>Jesus</option>
+  </select> <br><br>
+
+  Interests &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select  name="Interests" multiple="multiple">
+	 <option>Reading</option>
+     <option>Cinemas</option>
+     <option>Theaters</option>
+     <option>Operas</option>
+ </select> <br><br>
+
+ Favourite Car &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select>
+	<option>Volvo</option>
+	<option>Suzuki</option>
+	<option>Hyundai</option>
+  </select> <br><br><br>
+
+  Favourite Dish &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select  name="Dishes" multiple="multiple">
+	<option>Vegetarian</option>
+    <option>Green salad</option>
+	<option>Non-veg</option>
+  </select> <br><br>
+ 
+ Public Transports &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="Transports" multiple="multiple">
+	<option>Train</option>
+	<option>Bus</option>
+	<option>Auto</option>
+ </select>
+
+ </body>
+</html>
