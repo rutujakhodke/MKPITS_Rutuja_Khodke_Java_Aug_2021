@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  <title>HTML Nested List</title>
+ </head>
+ <body>
+  <ul style="font-size:25px">
+	<li>Fruit
+	<ul>
+		<li>Bananas
+		<li>Apples
+		<ul>
+			 <li>Green
+			 <li>Red
+		</ul>
+		<li>Pears
+              <ul>
+	           <li>Vegetables
+	          <li>Meat
+        </ul>
+	</ul>
+	
+  </ul>
+ </body>
+</html>
