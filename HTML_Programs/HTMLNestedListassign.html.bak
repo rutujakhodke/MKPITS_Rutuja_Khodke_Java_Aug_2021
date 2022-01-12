@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>HTML Nested List Example 1</title>
+ </head>
+ <body>
+  <ol style="font-size:24px">
+	<li>Chocolates
+	<ul type="square">
+		<li>Dairy Milk
+		<li>Bournvile
+		<li>Munch
+	</ul>
+
+	<li>Games
+
+	<ul type="disc">
+		<li>Cricket
+		<li>Hockey
+		<li>Football
+	</ul>
+ 
+ <li>Fruit
+
+ <ul>
+	<li>Apple
+	<li>Orange
+	<li>Grapes
+ </ul>
+
+</ol>
+ </body>
+</html>
