@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Webpage making using Div tag</title>
+
+  <style type="text/css">
+
+	div.menu{
+	width:90%;
+	height:40px;
+	text-align:right;
+	margin-left:20px;
+	background-color:#000000;
+	}
+
+   div.menu ul{
+     
+   }
+
+   div.menu li{
+    display:inline-table;
+	color:white;
+	line-height:40px;
+	margin-right:18px;
+	font-family:verdana;
+   }
+
+   div#first{
+     display:inline-table;
+     width:90%;
+	 height:50px;
+	 margin-left:20px;
+	 background-color:#ff5e5e;
+	 font-family:Sanserif;
+	 color:white;
+   }
+  h1{
+     margin-left:80px;
+	 line-height:50px;
+  }
+  i{
+    margin-left:420px;
+	font-size:20px;
+	line-height:50px;
+  }
+   
+ div.list{
+    display:inline-table;
+	width:90%;
+	height:0px;
+	text-align:center;
+	margin-left:20px;
+	background-color:#ffff06;
+	}
+ div.list ul{
+     display:inline-table;
+   }
+
+ div.list li{
+    display:inline;
+	color:black;
+	line-height:2px;
+	margin-right:50px;
+	font-family:verdana;
+   }
+
+   div#second{
+    padding:1px;
+     width:90%;
+	 height:400px;
+	 background-color:#d0ffff;
+	 margin-left:20px;
+	 font-family:Arial black;
+	 
+	 
+	 
+  }
+
+  h4{
+    margin:15px;
+	font-size:25px;
+	padding: 340px 60px;
+	line-height:5px;
+	color:#333399;
+	
+	
+	
+  
+  }
+  </style>
+ </head>
+ <body>
+   <div class="menu">
+	<ul>
+		<li>Fork</li>
+		<li>Change View</li>
+		<li>Log In</li>
+		<li>Sign Up</li>
+	</ul>
+ </div>
+
+ <div id="first">
+	<h1>Super Cool Website!
+	 <i>Because flex box is super cool!</i>
+	</h1>
+ </div>
+
+ <div class="list">
+	<ul>
+		<li>ABOUT</li>
+		<li>WORK</li>
+        <li>METHODS</li>
+		<li>RESULTS</li>
+		<li>CONTACTS</li>
+	</ul>
+ </div>
+
+ <div id="second">
+ <h4>This is the super cool section title</h4></div>
+
+ </body>
+</html>
