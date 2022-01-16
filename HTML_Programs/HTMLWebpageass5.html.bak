@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	img{
+	   border:3px solid #cc0033;
+	}
+	a{
+	  color:#cc3366;
+	}
+  </style>
+  <title>HTML Photo gallery</title>
+ </head>
+ <body>
+  <center><h1>Photo Gallery</h1></center>
+
+  <img src="F:\RedFortimage.jpg" width="200" height="190" alt="Red Fort Image" style="margin-left:220px;">  &nbsp;&nbsp;&nbsp;&nbsp; <img src="F:\KonarkTempleimage.jpg" alt="Konark Temple Image" width="300" height="150" > &nbsp;&nbsp;&nbsp; <img src="F:\QutubMinarImage.jpg" width="200" height="300"  alt="Qutub Minar">
+
+  <center><font size="4"><h4>Click on the image to see a larger view!</h4></font></center>
+
+  <font size="3"><center><a href="#">Red Fort In India</a></center></font>
+  <br>
+  <font size="3"><center><a href="#">Konark Sun Temple in India</a></center></font>
+  <br>
+  <font size="3"><center><a href="#">Qutub Minar in India</a></center></font>
+
+    <center><font size="4"><h4>Russ Erdman</h4></font></center>
+    <center><font size="4"><h4>Rock creek</h4></font></center>
+
+
+ </body>
+</html>
