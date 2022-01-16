@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	
+  </style>
+  <title>Wedding Planner Webpage in HTML</title>
+ </head>
+ <body>
+  <center><h1>Wedding Planners</h1></center>
+  <hr  size="4" color="black" width="55%"  style="text-align:left; margin-left:20px;">
+  <br>
+  <hr  size="4" color="black" width="53%" style="text-align:center; margin-left:590px;">
+
+  <img src="F:\HTMLImage1.jpg" width="300" height="250" border="0" alt="Wedding Planner Image" style="margin-left:20px;">
+
+  <center><h2>Give us a chance to make your wedding unforgettable.</h2></center>
+
+  <font size="4"><p style="margin-left:20px;">Choose from a list of some popular themes (or create your own theme)</p></font>
+
+  <font size="4"><p style="margin-left:140px;">PRICE RANGE</p></font>
+
+  <table align="left" border=1 Cellspacing=4 Cellpadding=3 width=30% style="margin-left:20px;">
+  
+  <tr>
+	<td>FOLK THEMES</td>
+	<td>1 LAKH-3LAKH</td>
+  </tr>
+  <tr>
+	<td>MODERN THEMES</td>
+	<td>1.5 LAKH-3LAKH</td>
+  </tr>
+  <tr>
+	<td>CUSTOM THEMES</td>
+	<td>VARIABLE</td>
+  </tr>
+  </table>
+ </body>
+</html>
