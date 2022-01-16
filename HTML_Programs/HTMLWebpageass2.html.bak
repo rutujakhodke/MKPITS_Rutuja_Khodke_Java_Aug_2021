@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <style type="text/css">
+ hr{
+	 width:70%;
+	 text-align:left;
+   }
+ </style>
+  
+  <title>Webpage Example in HTML</title>
+ </head>
+ <body>
+  <center><h1>IMPORTANCE OF CLEANLINESS</h1></center>
+  <hr>
+    <p>Cleanliness is not a work which we should do forcefully. It is a good habit and healthy way of our healthy life.
+ <img  align="left"  src="F:\TrashImage.jpg" alt="Cleanliness Image" width="80" height="100" border="0"> 
+  
+   <br> All type of cleanliness is very necessary for our good health whether it is personal cleanliness, surrounding <br> cleanliness, environment cleanliness, pet animal cleanliness or work place cleanliness (likeschool, college, <br> office, etc). We all should be highly aware about how to maintain cleanliness in our daily lives.
+ </p><br>
+ 
+ <p>&emsp;&emsp;&emsp; Factors affecting the environment</p>
+ <hr style="width:19%;text-align:left; margin-left:45px;">
+
+ <ol type="1">
+	<li>Industrial activities
+	<li>Vehicles
+	<li>Rapid urbanization and industrialization
+	<li>Population overgrowth
+ </ol>
+  <br>
+ <table align="center"   border=2  width=50%  style="margin-right:400px;">
+ <caption>Effects</caption>
+ <tr>
+	 <td>Water pollution is leading to a number of incurable diseases.</td> 
+ </tr>
+ <tr>
+    <td>Because of Air Pollution there are increasing case of pulmonary tuberculosis and thromosis and various sorts of brain and heart complications.</td>
+ </tr>
+ <tr>
+	 <td>Digital Media</td>
+ </tr>
+ <tr>
+	 <td>Soil-pollution may have negative effects on farm output ratio.
+ </tr>
+ <tr>
+	 <td>Noise-pollution have negative effects on hearing or auditory sense organs.
+ </tr>
+ <tr>
+	 <td>Thermal pollution is raising the environment temperature.
+ </tr>
+ </table>
+
+ <hr>
+ <center style="margin-right:350px;">For more details <a href="#">Click here</a></center>
+
+ </body>
+</html>
