@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <style>
+	ul{
+	 display:table;
+	 margin-left:290px;
+	}
+</style>
+  
+  <title>HTML Webpage</title>
+ </head>
+ <body>
+  <center><h1 >Your Name</h1></center>
+
+  <center><font size="5"><p>yourname@emailaddressofconvenience.com</p></font></center>
+
+  <font size="5"><p>&emsp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; This website is divided into a minimum of three areas,with a minimum of <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; one of the  areas having subordinate  pages as well. Specifically the areas are</p></font>
+
+  <font size="5"><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; 1.&nbsp;&nbsp;<b>About me.</b>&nbsp;&nbsp;This area may have subordinate pages for a fuller<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&nbsp;&nbsp;&emsp;&nbsp; <i>Curriculum Vitae</i>&nbsp;or a resume. </p>
+
+  <font size="5"><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; 2.&nbsp;&nbsp;<b>Classes.</b>&nbsp;&nbsp; This area will have subordinate pages for four tasks <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; due as a part of the Tools for Information Literacy class [insert <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; current semester here].</p></font>
+  
+             <ul type="circle">
+	          <li>Task 3 Markup
+	          <li>Task 4 Spreadsheets
+	          <li>Task 5 Relational Databases
+	          <li>Task 6 Presentational Graphics
+             </ul>
+   
+   <font size="5"><p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;3.&nbsp; <b>Interests.</b>&nbsp;&nbsp; This area may have subordinate pages for <br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; explorations of personal interests.</p> </font>
+
+</body>
+</html>
