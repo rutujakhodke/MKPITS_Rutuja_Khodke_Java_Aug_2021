@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	#grad1{
+	    height:200px;
+		width:900px;
+		
+		background-image:linear-gradient(#009900,#00ffff);
+	}
+	#grad2{
+	    height:200px;
+		width:900px;
+		
+		background-image:linear-gradient( to right,#009900,#00ffff);
+	}
+	#grad3{
+	    height:200px;
+		width:900px;
+		
+		background-image:linear-gradient( to bottom right,red,yellow);
+	}
+  </style>
+  <title>CSS Linear Gradient</title>
+ </head>
+ <body>
+  <h1>Linear Gradient - Top to Bottom</h1>
+  <p>This linear gradient starts green at the top, transitioning to blue at the bottom:</p>
+  <div id="grad1"></div>
+
+   <h1>Linear Gradient - Left to Right</h1>
+  <p>This linear gradient starts green at the left, transitioning to blue(to the right):</p>
+  <div id="grad2"></div>
+
+  <h1>Linear Gradient - Diagonal</h1>
+  <p>This linear gradient starts green at the top left, transitioning to blue(at bottom right):</p>
+  <div id="grad3"></div>
+ </body>
+</html>
