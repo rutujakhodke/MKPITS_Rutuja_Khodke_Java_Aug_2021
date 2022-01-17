@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	#grad1{
+	  height:200px;
+	  width:900px;
+	  background-image:linear-gradient(#ff3399,#0099cc,#009900);
+	}
+	#grad2{
+	  height:200px;
+	  width:900px;
+	  background-image:linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+	}
+	#grad3{
+	  height:200px;
+	  width:900px;
+	  background-image:linear-gradient(red 10%, green 85%, blue 90%);
+	}
+	#grad4{
+	  height:150px;
+	  width:900px;
+	  background-image:linear-gradient(to right,red, orange, yellow, green, blue, indigo, violet);
+	}
+  </style>
+  <title>CSS Linear Gradient Multiple Color stops</title>
+ </head>
+ <body>
+  <h1>Linear Gradients - Multiple Color Stops</h1>
+  
+  <h2>3 Color Stops (evenly spaced):</h2>
+  <div id="grad1"></div>
+
+  <h2>7 Color Stops (evenly spaced):</h2>
+  <div id="grad2"></div>
+
+  <h2>3 Color Stops (not evenly spaced):</h2>
+<div id="grad3"></div><br>
+
+<div id="grad4" style="text-align:center;color:#888888;font-size:40px;font-weight:bold">
+Rainbow Background
+</div>
+
+ </body>
+</html>
