@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <style type="text/css">
+	p{
+	  background-color:#ff0099;
+	  opacity:0.1;
+	}
+	h1{
+	  background-color:#ff0099;
+	  opacity:0;
+	}
+	h2{
+	  background-color:#ff0099;
+	  opacity:0.3;
+	}
+	h3{
+	  background-color:#ff0099;
+	  opacity:0.4;
+	}
+	h4{
+	  background-color:#ff0099;
+	  opacity:0.5;
+	}
+	h5{
+	  background-color:#ff0099;
+	  opacity:0.6;
+	}
+	h6{
+	  background-color:#ff0099;
+	  opacity:0.7;
+	}
+	.demo{
+	   background-color:#ff0099;
+	  opacity:0.8;
+	}
+	i{
+	   background-color:#ff0099;
+	  opacity:0.9;
+	}
+	b{
+	   background-color:#ff0099;
+	  opacity:1;
+	}
+	
+ </style>
+ 
+  <title>CSS Opacity Property</title>
+ </head>
+ <body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit...</p>
+   
+   <h1>This is a heading 1</h1>
+
+   <h2>This is heading 2</h2>
+
+   <h3>This is heading 3</h3>
+
+   <h4>This is heading 4</h4>
+
+   <h5>This is heading 5</h5>
+
+   <h6>This is heading 6</h6>
+
+   <div id="" class="demo">This is div element</div>
+   <br>
+   <i>This is italic tag</i>
+   <br>
+   <br>
+   <b>This is bold tag</b>
+ </body>
+</html>
