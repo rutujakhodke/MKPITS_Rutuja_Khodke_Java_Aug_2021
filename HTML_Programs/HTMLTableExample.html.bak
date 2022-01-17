@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	table{
+	  margin-bottom:30px;
+	}
+   #table{
+	     text-align:center;
+	}
+	tr:nth-child(even){
+	   background-color:#ffffc8;
+	}
+	tr:nth-child(odd){
+	   background-color:#eaf097;
+	}
+
+  </style>
+  
+  <title>HTML Table Example</title>
+ </head>
+ <body>
+ <font size="4" color="#cc0066" ><p style="text-align:right;margin-right:130px;">Print|Reset</p></font>
+  <font color="black"><table align="left" border=1 Cellspacing=1 Cellpadding=3 width=90%></font>
+  <tr style="background-color:#ffffc8">
+	<th style="width:200px">Register Number</th>
+	<th style="text-align:left">211704018</th>
+  </tr>
+  <tr style="background-color:#eaf097">
+	<th>Name</th>
+	<th style="text-align:left">DINESH P</th>
+  </tr>
+  <tr style="background-color:#ffffc8">
+	<th>Date Of Birth</th>
+	<th style="text-align:left">29/01/2000</th>
+  </tr>
+  <br>
+  <br>
+  </table>
+  <br>
+  <br>
+  <br>
+  <table align="left" border=1 Cellspacing=1 Cellpadding=3 width=90% id="table">
+  <tr style="background-color:#ff8000">
+	<th style="width:240px;">Subject Code</th>
+    <th>UE</th>
+	<th>IA</th>
+	<th>Total</th>
+    <th>Result</th>
+  </tr>
+
+  <tr>
+	<td>ENV4B</td>
+	<td>064</td>
+	<td>025</td>
+	<td>089</td>
+	<td>P</td>
+  </tr>
+
+  <tr>
+	<td>SAZ41</td>
+	<td>060</td>
+	<td>040</td>
+	<td>100</td>
+	<td>P</td>
+  </tr>
+
+  <tr>
+	<td>SAZ4A</td>
+	<td>051</td>
+	<td>025</td>
+	<td>076</td>
+	<td>P</td>
+  </tr>
+
+<tr>
+	<td>SAZ4B</td>
+	<td>045</td>
+	<td>025</td>
+	<td>070</td>
+	<td>P</td>
+  </tr>
+
+  <tr>
+	<td>SAZ4C</td>
+	<td>039</td>
+	<td>024</td>
+	<td>063</td>
+	<td>P</td>
+  </tr>
+  <tr>
+	<td>SAZ4A</td>
+	<td>040</td>
+	<td>023</td>
+	<td>063</td>
+	<td>P</td>
+  </tr>
+
+  <tr>
+	<td>TSSEE</td>
+	<td>030</td>
+	<td>030</td>
+	<td>060</td>
+	<td>P</td>
+  </tr>
+
+  </table>
+  <font size="4" color="#cc0066"><p style="margin-left:30px;">A-Absent|P-PASS|F-FAIL|RA-Re-Appear(from 2019-2020 Batch)</p></font>
+ </body>
+</html>
