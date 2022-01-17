@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	div{
+	   background-color:#009933;
+	   padding:30px;
+	}
+	div.first{
+	       opacity:0.2;
+	}
+	div.second{
+	       opacity:0.4;
+	}
+	div.third{
+	       opacity:0.6;
+	}
+	div.fourth{
+	       opacity:0.9;
+
+	}
+     #p1{
+	    background-color:rgba(255,0,0,0.1);
+	 }
+	  #p2{
+	    background-color:rgba(255,255,0,0.3);
+	 }
+	  #p3{
+	    background-color:rgba(0,0,255, 0.6);
+	 }
+	  #p4{
+	    background-color:rgba(255,0,255,0.7);
+	 }
+  </style>
+  <title>CSS opacity property 1</title>
+ </head>
+ <body>
+   <div id="" class="first">Section 1</div>
+   <div id="" class="second">Section 2</div>
+   <div id="" class="third">Section 3</div>
+   <div id="" class="fourth">Section 4</div>
+    
+	<p id="p1">Red</p>
+	<p id="p2">Yellow</p>
+	<p id="p3">blue</p>
+	<p id="p4">cerise</p>
+  
+ </body>
+</html>
+ 
