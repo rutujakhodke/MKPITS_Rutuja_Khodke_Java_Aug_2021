@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	#grad1{
+	  height:200px;
+	  width:900px;
+	  background-image:linear-gradient(0deg,#0099cc,#009900);
+	}
+	#grad2{
+	 height:200px;
+	 width:900px;
+	 background-image:linear-gradient(90deg,#0099cc,#009900);
+	}
+	#grad3{
+	 height:200px;
+	 width:900px;
+	 background-image:linear-gradient(180deg,#0099cc,#009900);
+	}
+  </style>
+  <title>Linear Gradient using Different Angles</title>
+ </head>
+ <body>
+  <h1>Linear Gradients - Using Different Angles</h1>
+
+  <div id="grad1" style="text-align:center;">0 degree</div><br>
+  <div id="grad2" style="text-align:center;">90 degree</div><br>
+  <div id="grad3" style="text-align:center;">180 degree</div><br>
+  <div id="grad1" style="text-align:center;">0 degree</div><br>
+
+ </body>
+</html>
