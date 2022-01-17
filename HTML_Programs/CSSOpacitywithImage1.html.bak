@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	
+	  img:hover{
+	       opacity:0.4;
+	}
+	div{
+	   text-align:center;
+	   width:200px;
+	   height:200px;
+	   background-color:#009933;
+	   border:10px solid black;
+	   opacity:0.4;
+	}
+  </style>
+  <title>CSS Opacity Example of Image</title>
+ </head>
+ <body>
+ <h1>Image Transparency</h1>
+
+  <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+
+  <img src="F:\RainbowImage.jpg" width="200" height="200" border="0" alt="Rainbow">   &nbsp;&nbsp; <img src="F:\NatureImage3.jpg" width="200" height="200" border="0" alt="Nature Image">  &nbsp;&nbsp;  <img src="F:\NatureImage2.jpg" width="200" height="200" border="0" alt="Nature Image 1">
+
+  <h1>Text Transparency</h1>
+  <div id="" class="">Text</div>
+ </body>
+</html>
