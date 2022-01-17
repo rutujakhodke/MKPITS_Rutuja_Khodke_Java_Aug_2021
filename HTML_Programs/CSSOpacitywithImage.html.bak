@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	#img1{
+	   opacity:0.1;
+	}
+	#img2{
+	   opacity:0.3;
+	}
+	#img3{
+	   opacity:0.5;
+	}
+	#img4{
+	   opacity:0.8;
+	}
+	img{
+	     opacity:0.5;
+	}
+	img:hover{
+	     opacity:1.0;
+	}
+	
+  </style>
+  <title>CSS Opacity Property Example</title>
+ </head>
+ <body>
+ <h1>Image Transparency</h1>
+
+  <img src="F:\NatureImage1.jpg" width="200" height="200" border="0" alt="Nature Image" id="img1">  &nbsp;<img src="F:\NatureImage1.jpg" width="200" height="200" border="0" alt="Nature Image" id="img2"> &nbsp; <img src="F:\NatureImage1.jpg" width="200" height="200" border="0" alt="Nature Image" id="img3"> &nbsp; <img src="F:\NatureImage1.jpg" width="200" height="200" border="0" alt="Nature Image" id="img4"> 
+
+  <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+
+  <img src="F:\RainbowImage.jpg" width="200" height="200" border="0" alt="Rainbow" id="image">   &nbsp;&nbsp; <img src="F:\NatureImage3.jpg" width="200" height="200" border="0" alt="Nature Image" id="image">  &nbsp;&nbsp;  <img src="F:\NatureImage2.jpg" width="200" height="200" border="0" alt="Nature Image 1" id="image">
+
+  <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+
+  <img src="F:\RainbowImage.jpg" width="200" height="200" border="0" alt="Rainbow">   &nbsp;&nbsp; <img src="F:\NatureImage3.jpg" width="200" height="200" border="0" alt="Nature Image">  &nbsp;&nbsp;  <img src="F:\NatureImage2.jpg" width="200" height="200" border="0" alt="Nature Image 1">
+ </body>
+</html>
