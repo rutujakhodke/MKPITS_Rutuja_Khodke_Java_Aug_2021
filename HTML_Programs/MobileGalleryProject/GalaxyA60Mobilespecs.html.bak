@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  
+  <title>Samsung Galaxy A60 Mobile Specification</title>
+ </head>
+ <body>
+  <h2>Samsung Galaxy A60 Specifications</h2>
+
+  <ul>
+	<li>Processor:2*1.8 GHZ ARM Cortex-A73 ,6x 1.6 GHz ARM
+	<li>RAM:6GB,8GB
+	<li>Storage:128GB
+	<li>Display:6.7in,IPS, 1080*2340 pixels,24 bit
+	<li>Camera:4680*3456 PIXELS,1920*1080 pixels,30fps
+	<li>Battery:4500 mAh,Li-Polymer
+	<li>Operating System:Android 9.0 Pie
+	</ul>
+
+	<font color="#9966cc"><h3>Price-Rs.20,690</h3></font>
+
+ </body>
+</html>

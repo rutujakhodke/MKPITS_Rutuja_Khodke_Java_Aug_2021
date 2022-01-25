@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+    td,tr{
+	  border:1px solid black;
+	  background-color:#d7d7ff;
+	}
+	img{
+	 width:250px;
+	 height:290px;
+	}
+  </style>
+  <title>Mobile Gallery Page</title>
+ </head>
+ <body>
+  <center><h1>Welcome To Mobile Gallery</h1></center>
+
+  <table align="center" border=2 Cellspacing=0 Cellpadding=0  width=60%>
+  <tr>
+	<td><figure>
+  <a href="F:\HTML Programs\OPPOMobilespecs.html"><img src="F:\OppoMobileimg.jpg" alt="OPPO Mobile"></a>
+  <center><figcaption>OPP0 F19 PRO</figcaption></center>
+     </figure>
+   </td>
+
+<td><figure>
+  <a href="F:\HTML Programs\RealMeMobilespecs.html"><img src="F:\Realmeimg.jpg" alt="phone"></a>
+  <center><figcaption>REALME C15</figcaption></center>
+</figure>
+</td>
+
+<td><figure>
+  <a href="F:\HTML Programs\Redmi8AMobilespecs.html"><img src="F:\RedMi8Aimg.jpg" alt="OPPO Mobile"></a>
+  <center><figcaption>RED MI 8A</figcaption></center>
+  </figure>
+</td>
+ </tr>
+
+  <tr>
+ <td><figure>
+  <a href="F:\HTML Programs\ASUSZenfone6Mobilespecs.html"><img src="F:\AsusZenfoneimg.jpg" alt="OPPO Mobile"></a>
+  <center><figcaption>ASUS ZENPHONE 6</figcaption></center>
+</figure>
+</td>
+
+<td><figure>
+  <a href="F:\HTML Programs\AppleiPhone12specs.html"><img src="F:\Appleiphone12img.jpg" alt="OPPO Mobile"></a>
+  <center><figcaption>APPLE IPHONE 12</figcaption></center>
+</figure>
+</td>
+
+<td><figure>
+  <img src="F:\GalaxyA60img.jpg" alt="OPPO Mobile">
+  <center><figcaption>GALAXY A60</figcaption></center>
+</figure>
+</td>
+ </tr>
+  </table>
+
+ </body>
+</html>
