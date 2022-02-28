@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp" class="com.example.springp9.Employee">
+        <property name="id" value="11"></property>
+        <property name="name" value="rutuja"></property>
+
+    </bean>
+
+    <bean id="rob" class="com.example.springp9.Report">
+        <property name="setemp">
+            <set>
+
+                <ref bean="emp"></ref>
+                <bean class="com.example.springp9.Employee">
+                    <property name="id" value="12"></property>
+                    <property name="name" value="priyanka"></property>
+                </bean>
+
+                <bean class="com.example.springp9.Employee">
+                    <property name="id" value="13"></property>
+                    <property name="name" value="Ashi"></property>
+                </bean>
+
+                <bean class="com.example.springp9.Employee">
+                    <property name="id" value="14"></property>
+                    <property name="name" value="Nidhi"></property>
+                </bean>
+            </set>
+        </property>
+
+    </bean>
+</beans>
