@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="eobj" class="com.example.springp6.Employee">
+<!--eobj id is same as employee type in Account class it will be match-->
+
+<!--        <property name="id" value="12"></property>-->
+<!--        <property name="name" value="rutuja"></property>-->
+
+        <constructor-arg  index="1" value="rutuja"/>
+        <constructor-arg  index="0" value="12"/>
+
+
+    </bean>
+
+<!--    <bean id="acc" autowire="byName" class="com.example.springp6.Account">-->
+
+<!-- it will recognize the type of Employee class -->
+<!--   eobj id is not same as employee type in Account class it will be match .it is not compulsory in byType-->
+    <bean id="acc" autowire="byType" class="com.example.springp6.Account">
+
+    </bean>
+
+</beans>
