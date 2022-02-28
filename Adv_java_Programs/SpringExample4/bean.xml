@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp" class="com.example.springp4.Employee">
+<!--Constructor Injection-->
+<!--it will print Employee constructor 1 where id is specified and we provide type=int to recognize that constructor-->
+<!--        <constructor-arg  type="int" value="12"/>-->
+
+<!--if we provide randomly parameter of constructor then we have to provide index -->
+        <constructor-arg  index="1" value="rutuja"/>
+        <constructor-arg  index="0" value="12"/>
+
+
+<!--        <constructor-arg  value="rutuja"/>-->
+    </bean>
+
+    <bean id="acc" class="com.example.springp4.Account">
+        <property name="eobj" ref="emp"></property>
+
+    </bean>
+</beans>
