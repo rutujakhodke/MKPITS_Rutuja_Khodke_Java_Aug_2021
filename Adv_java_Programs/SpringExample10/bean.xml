@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp" class="com.example.springp11.Employee">
+        <property name="id" value="11"></property>
+        <property name="name" value="Rutuja"></property>
+    </bean>
+
+    <bean id="rob" class="com.example.springp11.Report">
+        <property name="listemp">
+            <props>
+
+                <prop key="username">Rutuja</prop>
+                <prop key="password">pass123</prop>
+
+            </props>
+        </property>
+    </bean>
+</beans>
