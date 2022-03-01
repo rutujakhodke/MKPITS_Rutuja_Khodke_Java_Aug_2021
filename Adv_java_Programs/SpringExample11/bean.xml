@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    In scope prototype always new instance is created-->
+<!--    <bean id="emp" class="com.example.springp12.Employee" scope="prototype">-->
+
+    <bean id="emp" class="com.example.springp12.Employee" scope="singleton">
+
+        <property name="id" value="12"></property>
+        <property name="name" value="rutuja"></property>
+        <!--when object is initialized the associated data member will get value inserted through object by using setter method-->
+    </bean>
+
+<!--    <bean id="acc" class="com.example.springp12.Account">-->
+<!--        <property name="eobj" ref="emp"></property>-->
+
+<!--    </bean>-->
+</beans>
