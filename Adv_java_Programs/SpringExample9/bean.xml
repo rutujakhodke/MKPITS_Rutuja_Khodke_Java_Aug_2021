@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="emp" class="com.example.springp10.Employee">
+        <property name="id" value="11"></property>
+        <property name="name" value="Rutuja"></property>
+    </bean>
+
+    <bean id="rob" class="com.example.springp10.Report">
+        <property name="mapemp">
+            <map>
+                <entry key="101">
+                    <bean class="com.example.springp10.Employee">
+                    <property name="id" value="12"></property>
+                    <property name="name" value="Ruchi"></property>
+                    </bean>
+                </entry>
+
+                <entry key="102">
+                    <bean class="com.example.springp10.Employee">
+                    <property name="id" value="13"></property>
+                    <property name="name" value="Nidhi"></property>
+                    </bean>
+                </entry>
+
+                <entry key="103">
+                    <bean class="com.example.springp10.Employee">
+                    <property name="id" value="14"></property>
+                    <property name="name" value="Ashi"></property>
+                    </bean>
+                </entry>
+
+            </map>
+        </property>
+
+    </bean>
+</beans>
