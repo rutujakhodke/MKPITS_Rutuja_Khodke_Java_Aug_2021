@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="eobj" class="com.example.springp17.Employee">
+        <qualifier value="MyBean"></qualifier>
+        <property name="id" value="11"></property>
+        <property name="name" value="Rutuja"></property>
+    </bean>
+
+<!--    <bean id="eobj5" class="com.example.springp17.Employee">-->
+<!--        <property name="id" value="12"></property>-->
+<!--        <property name="name" value="Rutuja1"></property>-->
+<!--    </bean>-->
+
+    <bean id="acc" class="com.example.springp17.Account" >
+<!--        <property name="eobj" ref="emp"></property>-->
+
+    </bean>
+<!--it is used for Autowiring-->
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+</beans>
