@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    BY declaring abstract="true" it will not make object of Employee class.It will give error-->
+    <bean id="base" class="com.example.springp13.Employee" abstract="false">
+        <property name="name" value="Rutuja" ></property>
+    </bean>
+
+    <bean id="eob" parent="base">
+        <property name="id" value="11"></property>
+        <property name="city" value="Nagpur"></property>
+    </bean>
+</beans>
