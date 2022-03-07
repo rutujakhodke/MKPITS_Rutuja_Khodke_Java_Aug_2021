@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--if more than one files are present in application we have to do make separate connection for every file.So to do make connection every time
+    we use this connection code in bean.xml file.It is common for all jdbc connection files.We do not write separate connection for every file.
+     We use this bean object in every application by calling getBean -->
+
+<!--Datasource is a interface ,to implement the interface we use DriverManagerDataSource class    -->
+    <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/springdb"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+
+    </bean>
+</beans>
