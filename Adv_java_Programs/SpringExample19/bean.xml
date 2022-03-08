@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="datasrc" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/springdb"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+
+<!--DriverManagerDataSource class object is present in JdbcTemplate so we use ref-->
+<!--    JdbcTemplate class is connected with DriverManagerDataSource class through ref-->
+    <bean id="jdbctemp" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="datasrc"></property>
+    </bean>
+
+<!--Student1Daoimpl class is connected with JdbcTemplate class through ref    -->
+    <bean id="stud1dao" class="com.example.springdatasrc.dao.Student1Daoimpl">
+        <property name="template" ref="jdbctemp"></property>
+    </bean>
+</beans>
